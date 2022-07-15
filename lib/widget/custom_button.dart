@@ -24,16 +24,16 @@ class CustomButton extends StatelessWidget {
       child: TextButton(
         onPressed: onPressed,
         style: TextButton.styleFrom(
-          backgroundColor: kPrimaryColor,
+          backgroundColor: kRedColor,
           shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(defaultRadius),
+            borderRadius: BorderRadius.circular(100),
           ),
         ),
         child: Text(
           title,
           style: whiteTextstyle.copyWith(
             fontSize: 18,
-            fontWeight: medium,
+            fontWeight: extraBold,
           ),
         ),
       ),

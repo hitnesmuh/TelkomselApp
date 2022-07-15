@@ -4,18 +4,20 @@ import 'package:google_fonts/google_fonts.dart';
 double defaultMargin = 24.0;
 double defaultRadius = 14.0;
 
-Color kPrimaryColor = const Color(0xff2F5091);
+Color kBlueColor = const Color(0xff021A46);
 Color kBackgroundColor = const Color(0xffFAFAFA);
 Color kBlackColor = const Color(0xff1F1449);
 Color kWhiteColor = const Color(0xffFFFFFF);
 Color kGreyColor = const Color(0xff9698A9);
-Color kRedColor = const Color(0xffBE011D);
+Color kRedColor = const Color(0xffED0125);
+Color kPinkColor = Color(0xffFFF5F6);
+Color kBlueSkyColor = Color(0xffE9F6FE);
 Color kTransparentColor = Colors.transparent;
 Color kAvailableColor = Color(0xffE0D9FF);
 Color kUnavailableColor = Color(0xffEBECF1);
 
 TextStyle blueTextstyle = GoogleFonts.openSans(
-  color: kPrimaryColor,
+  color: kBlueColor,
 );
 
 TextStyle blackTextstyle = GoogleFonts.openSans(
